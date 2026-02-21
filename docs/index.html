@@ -831,7 +831,7 @@ function copyBoardState(){
 let fbDb=null,fbReady=false,playerNick='';
 (function initFirebase(){
   try{
-    const app=firebase.initializeApp({apiKey:"AIzaSyBpMeaIe_2xPWOGROsM2t6LRd2CyLSHbeA",authDomain:"holepuncher-constr.firebaseapp.com",databaseURL:"https://holepuncher-constr-default-rtdb.europe-west1.firebasedatabase.app",projectId:"holepuncher-constr"});
+    const app=firebase.initializeApp({apiKey:"AIzaSyCqQSfmsv0ruNWFoHEG93bTBpJxMbww8nM",authDomain:"holepuncher-constr.firebaseapp.com",databaseURL:"https://holepuncher-constr-default-rtdb.europe-west1.firebasedatabase.app",projectId:"holepuncher-constr"});
     fbDb=firebase.database();fbReady=true;loadLeaderboard();
   }catch(e){console.warn('Firebase init failed:',e);}
 })();
